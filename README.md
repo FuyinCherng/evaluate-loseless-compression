@@ -15,6 +15,9 @@ The condition of evaluation and how we performe evaluation (device, time of comp
 Follow what we mentioned on the slides 
 
 ## Result
+### Formate of dataset
+original size \t compressed size \t compression time \t decompression time
+
 
 ## Usage
 
