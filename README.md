@@ -32,7 +32,6 @@ The data we used in evaluation can be categorize into three categories:
 - Random: artificial files
 - Natrual Langugage: textual content of wikipedia pages
 - Binary: OSX executables
-- Multi-binary: several binary files 
 
 The input size of each kind of files are increased from 100 KB to 64 MB (each time increased by 100 KB). Hence, there are totally 640 input samples.
 
@@ -40,6 +39,7 @@ The input size of each kind of files are increased from 100 KB to 64 MB (each ti
 The machine we used in the evaluation is *Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz 48 cores - 258 GB RAMUbuntu 16.4*. For operating each method, we used single thread process, C++ and turned off their streaming function. We assigned unique CPU for process (taskset) and data are compressed and decompressed in RAM.
 
 ### Experiment
+15 different combinations:
 
 
 ## Result
