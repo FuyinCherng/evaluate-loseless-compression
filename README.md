@@ -1,5 +1,6 @@
 # Survey on Moderm Lossless Compression Methods
 
+**This project is still working in progress...**
 
 ## About
 Since the online service, digitalization and big data (ok I know this is a overused word) get more and more popular in these years, how to compress large amount of data and segments of data become a crucial problem and challenge for reaching high efficient service and nice user experience. 
