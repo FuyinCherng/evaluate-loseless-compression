@@ -19,7 +19,7 @@ The compression methods we evaluate are:
 The condition of evaluation and how we performe evaluation (device, time of compression....
 Follow what we mentioned on the slides 
 
-### Performance Metrics
+### Performance Metrics (dependent variables)
 According to the [Evaluating Compression Effectiveness](https://en.wikibooks.org/wiki/Data_Compression/Evaluating_Compression_Effectiveness#Decompression_Speed), we used the following performance metrics in the evaluation:
 
 - Compression Ratio = *Uncompressed Sized / Compressed Size*
@@ -35,12 +35,12 @@ The data we used in evaluation can be categorize into three categories:
 
 The input size of each kind of files are increased from 100 KB to 64 MB (each time increased by 100 KB). Hence, there are totally 640 input samples.
 
-### Enviroment Setting
+### Independent variables
+15 different conditions (5 compression methods X 3 data types) with 50 samples for each input size (32,000 samples for each setup).
+
+### Enviroment Setting and statistics
 The machine we used in the evaluation is *Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz 48 cores - 258 GB RAMUbuntu 16.4*. For operating each method, we used single thread process, C++ and turned off their streaming function. We assigned unique CPU for process (taskset) and data are compressed and decompressed in RAM.
-
-### Experiment
-15 different combinations:
-
+Each setup processed 291 GB data. The whole evaluation process 4TB data. 
 
 ## Result
 ### Input Size vs. Compression Ratio
