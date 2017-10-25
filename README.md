@@ -44,10 +44,13 @@ Each setup processed 291 GB data. The whole evaluation process 4TB data.
 
 ## Result
 ### Input Size vs. Compression Ratio
+![](Fig/)
 
 ### Input Size vs. Compression and Decompression Time
+![](Fig/)
 
 ### Input Size vs. Compression and Decompression Speed
+![](Fig/)
 
 ### Suggestion of chosing compression methods
 For random Input:
