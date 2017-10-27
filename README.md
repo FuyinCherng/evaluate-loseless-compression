@@ -46,15 +46,16 @@ Each setup processed 291 GB data. The whole evaluation process 4TB data.
 ## Result
 ### Input Size vs. Compression Ratio
 For random input,
-![](Fig/)
+![](Fig/R1_CompressionRatio_random.png)
 
 For text input,
-![](Fig/)
+![](Fig/R1_CompressionRatio_wiki.png)
 
 For binary input,
-![](Fig/)
+![](Fig/R1_CompressionRatio_binary.png)
 
 ### Input Size vs. Compression and Decompression Time
+#### Compression Time
 For random input,
 ![](Fig/)
 
@@ -63,6 +64,18 @@ For text input,
 
 For binary input,
 ![](Fig/)
+
+
+#### Decompression Time
+For random input,
+![](Fig/)
+
+For text input,
+![](Fig/)
+
+For binary input,
+![](Fig/)
+
 
 ### Input Size vs. Compression and Decompression Speed
 #### Compression Speed
