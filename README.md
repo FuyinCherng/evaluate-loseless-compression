@@ -45,22 +45,55 @@ Each setup processed 291 GB data. The whole evaluation process 4TB data.
 
 ## Result
 ### Input Size vs. Compression Ratio
+For random input,
+![](Fig/)
+
+For text input,
+![](Fig/)
+
+For binary input,
 ![](Fig/)
 
 ### Input Size vs. Compression and Decompression Time
+For random input,
+![](Fig/)
+
+For text input,
+![](Fig/)
+
+For binary input,
 ![](Fig/)
 
 ### Input Size vs. Compression and Decompression Speed
+#### Compression Speed
+For random input,
+![](Fig/)
+
+For text input,
+![](Fig/)
+
+For binary input,
+![](Fig/)
+
+#### Deompression Speed
+For random input,
+![](Fig/)
+
+For text input,
+![](Fig/)
+
+For binary input,
 ![](Fig/)
 
 ### Suggestion of chosing compression methods
-For random Input:
+For random input, 
+![](Fig/radar_random.png)
 
+For text input,
+![](Fig/radar_wiki.png)
 
-For Natural Language:
-
-For Binary:
-
+For binary input, 
+![](Fig/radar_binary.png)
 
 ### Interactive Visualization
 
