@@ -57,24 +57,24 @@ For binary input,
 ### Input Size vs. Compression and Decompression Time
 #### Compression Time
 For random input,
-![](Fig/)
+![](Fig/R2_CompressionTime_random.png)
 
 For text input,
-![](Fig/)
+![](Fig/R2_CompressionTime_wiki.png)
 
 For binary input,
-![](Fig/)
+![](Fig/R2_CompressionTime_binary.png)
 
 
 #### Decompression Time
 For random input,
-![](Fig/)
+![](Fig/R2_DecompressionTime_random.png)
 
 For text input,
-![](Fig/)
+![](Fig/R2_DecompressionTime_wiki.png)
 
 For binary input,
-![](Fig/)
+![](Fig/R2_DecompressionTime_bin.png)
 
 
 ### Input Size vs. Compression and Decompression Speed
