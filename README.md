@@ -80,23 +80,26 @@ For binary input,
 ### Input Size vs. Compression and Decompression Speed
 #### Compression Speed
 For random input,
-![](Fig/)
+![](Fig/R3_CompressionSpeed/random.png)
+![](Fig/R3_CompressionSpeed/random_noSnap.png)
 
 For text input,
-![](Fig/)
+![](Fig/R3_CompressionSpeed/wiki.png)
 
 For binary input,
-![](Fig/)
+![](Fig/R3_CompressionSpeed/binary.png)
 
 #### Deompression Speed
 For random input,
-![](Fig/)
+![](Fig/R3_DecompressionSpeed/random.png)
+![](Fig/R3_DecompressionSpeed/random_NoSnap.png)
+
 
 For text input,
-![](Fig/)
+![](Fig/R3_DecompressionSpeed/wiki.png)
 
 For binary input,
-![](Fig/)
+![](Fig/R3_DecompressionSpeed/binary.png)
 
 ### Suggestion of chosing compression methods
 For random input, 
