@@ -17,9 +17,6 @@ The compression methods we evaluate are:
 - [Zip (1989, Phil Katz, PKWARE, Inc.)](http://www.7-zip.org/sdk.html)
 
 ## Evaluation
-The condition of evaluation and how we performe evaluation (device, time of compression....
-Follow what we mentioned on the slides 
-
 ### Performance Metrics (dependent variables)
 According to the [Evaluating Compression Effectiveness](https://en.wikibooks.org/wiki/Data_Compression/Evaluating_Compression_Effectiveness#Decompression_Speed), we used the following performance metrics in the evaluation:
 
@@ -44,8 +41,10 @@ The machine we used in the evaluation is *Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50
 Each setup processed 291 GB data. The whole evaluation process 4TB data. 
 
 ## Result
+In this section, we display how the ratio, time and speed of compression and decompression change when the input size increased. 
+
 ### Input Size vs. Compression Ratio
-For random input,
+For random input, we can see that the compression ratio didn't change along with input size, which means all methods have steady performance when compressing artificial contents.
 ![](Fig/R1_CompressionRatio_random.png)
 
 For text input,
