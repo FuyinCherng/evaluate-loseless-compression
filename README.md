@@ -44,13 +44,13 @@ Each setup processed 291 GB data. The whole evaluation process 4TB data.
 In this section, we display how the ratio, time and speed of compression and decompression change when the input size increased. 
 
 ### Input Size vs. Compression Ratio
-For random input, we can see that the compression ratio didn't change along with input size, which means all methods have steady performance when compressing artificial contents.
+For random input, we can see that the compression ratio didn't change along with input size, which means all methods have steady performance when compressing artificial contents. Sanppy has zeros impact and other methods have similar performance.
 ![](Fig/R1_CompressionRatio_random.png)
 
-For text input,
+For text input, Snappy and Brotli have poorer performance than others and other methods have similar performance.
 ![](Fig/R1_CompressionRatio_wiki.png)
 
-For binary input,
+For binary input, Snappy and Brotli still have lower perofrmance when compressing binary files and other methods have similar performance.
 ![](Fig/R1_CompressionRatio_binary.png)
 
 ### Input Size vs. Compression and Decompression Time
